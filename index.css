@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 15px; */
+}
+
+
+nav{
+    background-color: rgba(29, 109, 228, 0.866);
+    height:12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%
+}
+
+.logo{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/flipkart-logo.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 30px;
+}
+.plus{
+    color: yellow;
+}
+.searchProduct{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 40%;
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 10px;
+    color:rgba(29, 109, 228, 0.866);
+}
+.searchTxt{
+    width: 80%;
+}
+#search_form ,#search_form input{
+     border: none;
+    align-items: center;
+    width: 100%;
+}
+
+
+.login{
+    border-radius: 2px;
+    width:15%;
+    height: 40%;
+    background-color: blue;
+}
+.login  form{
+    width: 100%;
+    border-radius: 2px;
+    height: 100%;
+}
+.login input{
+    border-radius: 2px;
+    color:rgba(29, 109, 228, 0.866) ;
+    width: 100%;
+    height: 100%;
+   border: none;
+
+}
+.menu ul{
+    color: white;
+    width: 250px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proMenuContainer{
+    width: 100vw;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+
+}
+
+.proMenuItem{
+    height: 150px;
+    width:150px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    gap:10px;
+    text-align: center;
+    
+    
+}
+.proMenuItem_img ,.mensCollection_item_img ,.womensCollection_item_img,.electronicCollection_item_img{
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#proMenuItem_img1{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon1.webp?raw=true);
+}
+
+#proMenuItem_img2{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon2.webp?raw=true);
+}
+
+#proMenuItem_img3{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon3.webp?raw=true);
+}
+
+#proMenuItem_img4{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon4.webp?raw=true);
+}
+
+#proMenuItem_img5{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon5.webp?raw=true);
+}
+
+#proMenuItem_img6{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon6.webp?raw=true);
+}
+
+#proMenuItem_img7{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon7.webp?raw=true);
+}
+#proMenuItem_img8{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon8.webp?raw=true);
+}
+#proMenuItem_img9{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/menuIcon9.webp?raw=true);
+}
+
+.hero{
+    height: 300px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+
+    
+   
+
+}
+.heroImg{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/heroImg.png?raw=true);
+    height: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.collections{
+    /* background-color: cadetblue; */
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 10px;
+    height:250px;
+    /* border:1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.mensCollection,.womensCollection,.electronicCollection{
+    width: 170px;
+    height: 100%;
+}
+.mensCollection_item_img,.womensCollection_item_img,.electronicCollection_item_img{
+    /* background-color: brown; */
+    height: 80%;
+}
+#mensCollection_item_img1{
+    background-image:url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/cloth1.webp?raw=true);
+    background-size: cover;
+    
+
+}
+#mensCollection_item_img2{
+    background-image:url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/cloth2.webp?raw=true);
+    
+
+}
+#mensCollection_item_img3{
+    background-image:url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/cloth3.webp?raw=true);
+    
+
+}
+#mensCollection_item_img4{
+    background-image:url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/cloth4.webp?raw=true);
+    
+
+}
+.collectionstxt{
+    text-align: center;
+    /* background-color: brown; */
+    font-size: 2rem;
+    width:150px;
+    margin:10px;
+}
+
+#womensCollection_item_img1{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/fashion1.webp?raw=true);
+}
+#womensCollection_item_img2{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/fashion2.webp?raw=true);
+    background-size: cover;
+}
+#womensCollection_item_img3{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/fashion3.webp?raw=true);
+}
+#womensCollection_item_img4{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/fashion4.webp?raw=true);
+}
+
+#electronicCollection_item_img1{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/electronic1.webp?raw=true);
+}
+#electronicCollection_item_img2{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/electronic2.webp?raw=true);
+    
+}
+#electronicCollection_item_img3{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/electronic3.webp?raw=true);
+}
+#electronicCollection_item_img4{
+    background-image: url(https://github.com/aman-sinha-dev/Flipkart-Clone/blob/main/images/electronic4.webp?raw=true);
+}
+
+.BuyNow{
+    color: rgb(16, 164, 16);
+}
+.viewAll{
+    background-color: rgb(5, 135, 228);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-transform:uppercase;
+    color:white;
+    border:none;
+}
+ footer{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(0, 33, 79);
+ }
+ .footersection1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .footersection1_menu_name{
+    color:rgba(255, 255, 255, 0.542);
+    font-size: 0.8rem;
+    
+ }
+ .footersection_menu_items{
+    margin-top:10px;
+    color:white;
+ }
